@@ -8,11 +8,12 @@ const plugins = require('gulp-load-plugins')({
     'gulp-jsforce-exec-anon': 'execAnon'
   }
 });
-const logger = require('fancy-log');
+const MyLogger = require('./lib/utils/my-logger');
 
 const RETRIEVE_RESULT_FILE = './retrieveResult.json';
 
 gulp.task('retrieve', function() {
+  let logger = new MyLogger();
   let status = null;
   gulp.src(options.src + '/package.xml')
   .pipe(retrieve.gulpRetrieve(options.src + '/package.xml', options.tmp, options).on('error', error => {
