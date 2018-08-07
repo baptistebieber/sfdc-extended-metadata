@@ -10,6 +10,9 @@
   "files": [
     "index.js"
   ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/baptistebieber/sfdc-extended-retrieve.git"
