@@ -63,5 +63,5 @@ package-lock.json
 
 
 #Custom
-tmp/
-src/
+tmp/*
+src/*
