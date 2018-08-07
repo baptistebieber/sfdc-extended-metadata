@@ -27,6 +27,7 @@ gulp.task('retrieve', function() {
 });
 
 gulp.task('parse-data', function() {
+  options.logger = new MyLogger();
   retrieve.parseData(options.tmp, options.src, options);
   // return Promise.all([retrieve.parseData(options.tmp, options.src, options)])
   // .then(result => {
