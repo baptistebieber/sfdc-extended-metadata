@@ -1,0 +1,5 @@
+<?xml version='1.0'?>
+<ActionOverride>
+    <actionName>Delete</actionName>
+    <type>Default</type>
+</ActionOverride>

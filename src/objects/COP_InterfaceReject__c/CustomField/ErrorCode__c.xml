@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<CustomField>
+    <fullName>ErrorCode__c</fullName>
+    <externalId>false</externalId>
+    <label>Code d'erreur</label>
+    <length>128</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

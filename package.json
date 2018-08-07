@@ -1,0 +1,35 @@
+{
+  "name": "sfdc-extended-retrieve",
+  "version": "0.0.1",
+  "description": "Retrieve data from SFDC and split to many files",
+  "keyword": [
+    "salesforce",
+    "package"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baptistebieber/sfdc-extended-retrieve.git"
+  },
+  "author": "Baptiste Bieber <baptiste.bieber@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "decompress": "^4.2.0",
+    "directory-tree": "^2.0.0",
+    "envalid": "^4.1.4",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "gulp-jsforce-exec-anon": "^1.1.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-zip": "^4.0.0",
+    "jsforce-metadata-tools": "^1.3.0",
+    "npm": "^6.3.0",
+    "through2": "^2.0.3",
+    "xml2js": "^0.4.17",
+    "js2xmlparser": "^3.0.0"
+  }
+}

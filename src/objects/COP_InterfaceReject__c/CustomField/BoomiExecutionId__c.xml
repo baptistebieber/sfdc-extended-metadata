@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<CustomField>
+    <fullName>BoomiExecutionId__c</fullName>
+    <externalId>false</externalId>
+    <label>Exécution Id Boomi</label>
+    <length>64</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

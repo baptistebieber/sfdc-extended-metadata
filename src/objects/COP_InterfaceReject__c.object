@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<CustomObject>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>CompactLayoutRejet</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <gender>Masculine</gender>
+    <label>Rejet d'interface</label>
+    <nameField>
+        <displayFormat>RI-{00000000}</displayFormat>
+        <label>Rejet Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Rejets d'interface</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>BoomiFlow__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BoomiFlowVersion__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ErrorCode__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ErrorDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ResolutionDate__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>BoomiFlow__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>BoomiFlowVersion__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ErrorCode__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ErrorDate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ResolutionDate__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>BoomiFlow__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>BoomiFlowVersion__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ErrorCode__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ErrorDate__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ResolutionDate__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>BoomiFlow__c</searchFilterFields>
+        <searchFilterFields>ErrorCode__c</searchFilterFields>
+        <searchFilterFields>ErrorDate__c</searchFilterFields>
+        <searchFilterFields>Status__c</searchFilterFields>
+        <searchFilterFields>IdObject__c</searchFilterFields>
+        <searchFilterFields>TypeIdObject__c</searchFilterFields>
+        <searchResultsAdditionalFields>BoomiFlow__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BoomiFlowVersion__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ErrorCode__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ErrorDate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ResolutionDate__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
