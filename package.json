@@ -1,22 +1,20 @@
 {
   "name": "sfdc-extended-retrieve",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Retrieve data from SFDC and split to many files",
   "keyword": [
     "salesforce",
-    "package"
+    "metadata"
   ],
   "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "engines": {
     "node": ">=8.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/baptistebieber/sfdc-extended-retrieve.git"
+    "url": "https://github.com/baptistebieber/sfdc-extended-metadata.git"
   },
+  "homepage": "https://github.com/baptistebieber/sfdc-extended-metadata#readme"
   "author": "Baptiste Bieber <baptiste.bieber@gmail.com>",
   "license": "MIT",
   "dependencies": {
