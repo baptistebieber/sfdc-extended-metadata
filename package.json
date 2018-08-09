@@ -27,6 +27,7 @@
     "gulp-jsforce-exec-anon": "^1.1.1",
     "gulp-load-plugins": "^1.5.0",
     "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^1.0.0",
     "gulp-zip": "^4.0.0",
     "fancy-log": "^1.3.2",
     "js2xmlparser": "^3.0.0",
@@ -40,6 +41,10 @@
     "xmlbuilder": "^9.0.0"
   },
   "scripts": {
-    "parse-data": "gulp parse-data"
+    "retrieve": "gulp retrieve",
+    "deploy": "gulp deploy",
+    "parse-data": "gulp parse-data",
+    "compose-data": "gulp compose-data",
+    "generate-package": "gulp generate-package"
   }
 }

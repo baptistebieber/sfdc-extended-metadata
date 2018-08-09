@@ -1,5 +1,6 @@
 'use strict';
 const gulp = require('gulp');
+var gulpSequence = require('gulp-sequence')
 const fs = require('fs-extra');
 const path = require('path');
 
@@ -14,9 +15,15 @@ const MyLogger = require('./lib/utils/my-logger');
 options.logger = new MyLogger();
 
 const TASK_PATH = './gulp-tasks/'
+const SEQUENCES_PATH = './gulp-sequences/'
 
 fs.readdirSync(TASK_PATH).forEach(file => {
   const task = path.basename(file, path.extname(file));
   gulp.task(task, getTask([task,gulp,plugins,options]));
 });
 
+fs.readdirSync(SEQUENCES_PATH).forEach(file => {
+  const sequence = path.basename(file, path.extname(file));
+  let listTask = require(SEQUENCES_PATH + sequence);
+  gulp.task(sequence, gulpSequence(...listTask));
+});
