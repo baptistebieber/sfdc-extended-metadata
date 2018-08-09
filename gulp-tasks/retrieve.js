@@ -9,8 +9,10 @@ const RETRIEVE_RESULT_FILE = './retrieveResult.json';
 module.exports = (gulp, plugins, options) => {
   return cb => {
     let status = null;
-    gulp.src(options.src + '/package.xml')
-    .pipe(extendedMetadata.gulpRetrieve(options.src + '/package.xml', options.tmp, options).on('error', error => {
+    let packageXml = options.arg.p || options.arg.package || options.src + '/package.xml';
+    options.logger.log('Package used' + packageXml);
+    gulp.src(packageXml)
+    .pipe(extendedMetadata.gulpRetrieve(packageXml, options.tmp, options).on('error', error => {
       status = error;
     }))
     .pipe(plugins.rename(RETRIEVE_RESULT_FILE))
