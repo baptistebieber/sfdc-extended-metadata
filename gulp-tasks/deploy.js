@@ -17,7 +17,7 @@ module.exports = (gulp, plugins, options) => {
     .pipe(plugins.rename(DEPLOY_RESULT_FILE))
     .pipe(gulp.dest('.'));
     if(status) {
-      options.logger.error(status);
+      options.logger.log(PLUGIN_NAME + ': ' + status);
     }
   }
 };
