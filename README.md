@@ -134,6 +134,7 @@ Here is the list of optional parameters with their default value :
 
 ## Built With
 
+* [archiver](https://github.com/archiverjs/node-archiver) - A streaming interface for archive generation.
 * [decompress](https://github.com/kevva/decompress) - Extracting archives made easy.
 * [directory-tree](https://github.com/mihneadb/node-directory-tree) - Creates a JavaScript object representing a directory tree.
 * [envalid](https://github.com/af/envalid) - Environment variable validation for Node.js.
