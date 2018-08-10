@@ -1,4 +1,4 @@
-# sfdc-extended-retrieve
+# sfdc-extended-metadata
 
 [![Build Status](https://travis-ci.org/baptistebieber/sfdc-extended-metadata.svg?branch=master)](https://travis-ci.org/baptistebieber/sfdc-extended-metadata)
 
