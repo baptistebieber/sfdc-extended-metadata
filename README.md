@@ -1,5 +1,6 @@
 # sfdc-extended-retrieve
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/52ceecffb63e4e4fb0f4db50a3834832)](https://app.codacy.com/app/baptiste.bieber/sfdc-extended-metadata?utm_source=github.com&utm_medium=referral&utm_content=baptistebieber/sfdc-extended-metadata&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/baptistebieber/sfdc-extended-metadata.svg?branch=master)](https://travis-ci.org/baptistebieber/sfdc-extended-metadata)
 
 Inspired from [sfdc-generate-package](https://github.com/scolladon/sfdc-generate-package) by **Sebastien Colladon**
