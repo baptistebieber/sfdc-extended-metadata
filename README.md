@@ -42,7 +42,7 @@ $ npm install
 }
 ```
 
-* retrieve: Retrieve data from the `SF_SRC + /package.xml` to `SF_TMP`
+* retrieve: Retrieve data from the `SF_SRC + /package.xml` (or from a file passed using relative path with the option `-p` or `-package`) to `SF_TMP`
 * deploy: Deploy data from `SF_TMP`
 * parse-data: Parse data (split) from `SF_TMP` to `SF_SRC`
 * compose-data: Combine data from `SF_SRC` to `SF_TMP`
@@ -64,6 +64,13 @@ $ gulp parse-data
 $ gulp compose-data
 $ gulp generate-package
 $ gulp deploy
+```
+
+### Retrieve data from a specific package
+You need to have the file `./package-perso.xml` into the SRC folder.
+Then:
+```
+$ gulp retrieve -p ./package-perso.xml
 ```
 
 
