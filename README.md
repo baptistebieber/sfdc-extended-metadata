@@ -7,13 +7,13 @@ Inspired from [sfdc-generate-package](https://github.com/scolladon/sfdc-generate
 **/!\ It is a bêta version /!\\**
 **/!\ The Gulp Sequence functionality doesn't work /!\\**
 
-`sfdc-extended-retrieve` is a package to add mor functionalities to `jsforce-metadata-tools`.
+`sfdc-extended-metadata` is a package to add mor functionalities to `jsforce-metadata-tools`.
 
 
 ## Why ?
 There are many Salesforce project using versionning. Theses projects used the Metadata API.
 It's perfect for classes ou tiggers but not for the CustomObject or CustomLabel because to send to Salesforce we need to tell what information contain the CustomObject.
-`sfdc-extended-retrieve` split the metadata to small part of metadata.
+`sfdc-extended-metadata` split the metadata to small part of metadata.
 
 
 ## Getting Started
