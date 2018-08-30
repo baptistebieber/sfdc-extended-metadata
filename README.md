@@ -150,6 +150,7 @@ Here is the list of optional parameters with their default value :
 * [merge](https://github.com/yeikos/js.merge) - Merge multiple objects into one.
 * [plugin-error](https://github.com/gulpjs/plugin-error) - Error handling for Vinyl plugins.
 * [fs-extra](https://github.com/jprichardson/node-fs-extra) - extra methods for the fs object like copy(), remove(), mkdirs().
+* [sfdc-generate-package](https://github.com/scolladon/sfdc-generate-package) - Generation of the package.xml
 * [through2](https://github.com/rvagg/through2) - A tiny wrapper around Node streams.
 * [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - Simple XML to JavaScript object converter.
 * [xmlbuilder](https://github.com/oozcitak/xmlbuilder-js) - An XML builder for node.js similar to java-xmlbuilder.
