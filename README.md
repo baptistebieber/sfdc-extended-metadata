@@ -145,7 +145,6 @@ Here is the list of optional parameters with their default value :
 * [gulp-rename](https://github.com/hparra/gulp-rename) - Rename files easily.
 * [gulp-sequence](https://github.com/teambition/gulp-sequence) - Run a series of gulp tasks in order.
 * [gulp-zip](https://github.com/sindresorhus/gulp-zip) - ZIP compress files.
-* [js2xmlparser](https://github.com/michaelkourlas/node-js2xmlparser) - js2xmlparser is a Node.js module that parses JavaScript objects into XML.
 * [jsforce-metadata-tools](https://github.com/jsforce/jsforce-metadata-tools) - Tools for deploying/retrieving package files using Metadata API via JSforce.
 * [merge](https://github.com/yeikos/js.merge) - Merge multiple objects into one.
 * [plugin-error](https://github.com/gulpjs/plugin-error) - Error handling for Vinyl plugins.
