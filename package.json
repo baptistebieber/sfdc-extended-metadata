@@ -1,6 +1,6 @@
 {
   "name": "sfdc-extended-metadata",
-  "version": "1.5.0-alpha.1",
+  "version": "1.5.0-alpha.2",
   "description": "Retrieve data from SFDC and split to many files",
   "keyword": [
     "salesforce",
