@@ -6,7 +6,7 @@ const scriptName = path.basename(__filename);
 const PLUGIN_NAME = 'gulp-sfdc-extended-metadata-' + scriptName;
 
 module.exports = (gulp, plugins, options) => {
-  return cb => {
-    extendedMetadata.generatePackage(options.tmp, options.tmp, options);
-  }
+  return (cb) => {
+    extendedMetadata.generatePackage(options.src, options.tmp, options);
+  };
 };

@@ -7,7 +7,7 @@ const PLUGIN_NAME = 'gulp-sfdc-extended-metadata-' + scriptName;
 const RETRIEVE_RESULT_FILE = './retrieveResult.json';
 
 module.exports = (gulp, plugins, options) => {
-  return cb => {
+  return (cb) => {
     let status = null;
     let packageXml = options.arg.p || options.arg.package || options.src + '/package.xml';
     gulp.src(packageXml)
@@ -19,5 +19,5 @@ module.exports = (gulp, plugins, options) => {
     if(status) {
       options.logger.log(PLUGIN_NAME + ': ' + status);
     }
-  }
+  };
 }

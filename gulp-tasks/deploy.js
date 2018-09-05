@@ -7,7 +7,7 @@ const PLUGIN_NAME = 'gulp-sfdc-extended-metadata-' + scriptName;
 const DEPLOY_RESULT_FILE = './deployResult.json';
 
 module.exports = (gulp, plugins, options) => {
-  return cb => {
+  return (cb) => {
     let status = null;
     gulp.src(options.tmp+'/**')
     .pipe(plugins.zip('pkg.zip'))
@@ -19,5 +19,5 @@ module.exports = (gulp, plugins, options) => {
     if(status) {
       options.logger.log(PLUGIN_NAME + ': ' + status);
     }
-  }
+  };
 };
