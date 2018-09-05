@@ -1,6 +1,7 @@
 # sfdc-extended-metadata
 
 [![Build Status](https://travis-ci.org/baptistebieber/sfdc-extended-metadata.svg?branch=master)](https://travis-ci.org/baptistebieber/sfdc-extended-metadata)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c598758dbbb04cc191d991ae0ae1d5bc)](https://www.codacy.com/app/baptiste.bieber/sfdc-extended-metadata?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=baptistebieber/sfdc-extended-metadata&amp;utm_campaign=Badge_Grade)
 
 Inspired from [sfdc-generate-package](https://github.com/scolladon/sfdc-generate-package) by **Sebastien Colladon**
 
