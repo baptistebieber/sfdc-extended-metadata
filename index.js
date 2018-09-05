@@ -7,6 +7,7 @@ const gulpDeploy = require('./lib/scripts/gulp-jsforce-deploy.js');
 const parseData = require('./lib/scripts/parse-data.js');
 const composeData = require('./lib/scripts/compose-data.js');
 const generatePackage = require('./lib/scripts/generate-package.js');
+const generatePackageFromList = require('./lib/scripts/generate-package-from-list.js');
 const diff = require('./lib/scripts/diff.js');
 
 module.exports = {
