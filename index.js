@@ -19,4 +19,4 @@ module.exports = {
   composeData: composeData,
   generatePackage: generatePackage,
   diff: diff,
-}
+};
