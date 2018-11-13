@@ -37,6 +37,7 @@
     "npm": "^6.4.1",
     "plugin-error": "^1.0.1",
     "sfdc-generate-package": "^2.3.0",
+    "sfdc-authent-delegate": "^1.0.2",
     "through2": "^2.0.3",
     "xml2js": "^0.4.17",
     "xmlbuilder": "^9.0.0"

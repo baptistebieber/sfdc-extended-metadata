@@ -19,5 +19,6 @@ module.exports = (gulp, plugins, options) => {
     if(status) {
       options.logger.log(PLUGIN_NAME + ': ' + status);
     }
+    cb();
   };
 }
