@@ -10,6 +10,8 @@ const generatePackage = require('./lib/scripts/generate-package.js');
 const generatePackageFromList = require('./lib/scripts/generate-package-from-list.js');
 const diff = require('./lib/scripts/diff.js');
 const selectFromPackage = require('./lib/scripts/select-from-package.js');
+const importData = require('./lib/scripts/import-data.js');
+const loadData = require('./lib/scripts/load-data.js');
 
 module.exports = {
   deploy: deploy,
@@ -22,4 +24,6 @@ module.exports = {
   generatePackageFromList: generatePackageFromList,
   diff: diff,
   selectFromPackage: selectFromPackage,
+  importData: importData,
+  loadData: loadData,
 };
