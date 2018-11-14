@@ -5,7 +5,6 @@
 
 Inspired from [sfdc-generate-package](https://github.com/scolladon/sfdc-generate-package) by **Sebastien Colladon**
 
-**/!\ It is a bêta version /!\\**
 **/!\ The Gulp Sequence functionality doesn't work /!\\**
 
 `sfdc-extended-metadata` is a package to add mor functionalities to `jsforce-metadata-tools`.
@@ -49,6 +48,37 @@ $ npm install
 * compose-data: Combine data from `SF_SRC` to `SF_TMP`
 * generate-package: Generate `package.xml` from `SF_TMP`
 
+
+### Methods available
+```javascript
+"scripts": {
+  "deploy": deploy,
+  "retrieve": retrieve,
+  "gulpRetrieve": gulpRetrieve,
+  "gulpDeploy": gulpDeploy,
+  "parseData": parseData,
+  "composeData": composeData,
+  "generatePackage": generatePackage,
+  "generatePackageFromList": generatePackageFromList,
+  "diff": diff,
+  "selectFromPackage": selectFromPackage,
+}
+```
+
+* deploy
+* retrieve: Retrieve data from the `SF_SRC + /package.xml` (or from a file passed using relative path with the option `-p` or `-package`) to `SF_TMP`
+* parse-data: Parse data (split) from `SF_TMP` to `SF_SRC`
+* compose-data: Combine data from `SF_SRC` to `SF_TMP`
+* generate-package: Generate `package.xml` from `SF_TMP`
+
+* deploy: Deploy data from a folder (`packageSrc`)
+* retrieve: Retrieve data from a package.xml (`packageXmlPath`) to a folder (`folderToExtract`)
+* parseData: Split & move metadata from a folder (`inputFolder`) to an other (`outputFolder`)
+* composeData: Merge & move metadata from a folder (`inputFolder`) to an other (`outputFolder`)
+* generatePackage: Generate file "package.xml" from all metadata parsed from a folder (`inputFolder`) to a folder (`outputFolder`)
+* generatePackageFromList: Generate file package.xml (`outputFile`) from a list of filepath (`filepaths`) in a folder (`inputFolder`)
+* diff: Make a diff between commit or branch (`commitFrom`) and an other (`commitTo`) into the local repository path (`repo`) and move and compose data from (`inputFolder`) to (`outputFolder`)
+* selectFromPackage: *Not working yet* Select files from a specific package.xml file (`inputPackage`) from a folder (`inputFolder`) to an other (`outputFolder`)
 
 ## Usage Example
 
@@ -140,6 +170,7 @@ Here is the list of optional parameters with their default value :
 * [directory-tree](https://github.com/mihneadb/node-directory-tree) - Creates a JavaScript object representing a directory tree.
 * [envalid](https://github.com/af/envalid) - Environment variable validation for Node.js.
 * [fancy-log](https://github.com/js-cli/fancy-log) - Log things, prefixed with a timestamp.
+* [fs-extra](https://github.com/jprichardson/node-fs-extra) - extra methods for the fs object like copy(), remove(), mkdirs().
 * [gulp](https://github.com/gulpjs/gulp) - The streaming build system.
 * [gulp-jsforce-exec-anon](https://github.com/scolladon/gulp-jsforce-exec-anon) - Execute anonymous using JSforce.
 * [gulp-load-plugins](https://github.com/jackfranklin/gulp-load-plugins) - Automatically load in gulp plugins.
@@ -147,10 +178,11 @@ Here is the list of optional parameters with their default value :
 * [gulp-sequence](https://github.com/teambition/gulp-sequence) - Run a series of gulp tasks in order.
 * [gulp-zip](https://github.com/sindresorhus/gulp-zip) - ZIP compress files.
 * [jsforce-metadata-tools](https://github.com/jsforce/jsforce-metadata-tools) - Tools for deploying/retrieving package files using Metadata API via JSforce.
+* [list-filepaths](https://github.com/bcmarinacci/list-filepaths) - Asynchronously return an array containing the paths of all files in a directory and its subdirectories.
 * [merge](https://github.com/yeikos/js.merge) - Merge multiple objects into one.
 * [plugin-error](https://github.com/gulpjs/plugin-error) - Error handling for Vinyl plugins.
-* [fs-extra](https://github.com/jprichardson/node-fs-extra) - extra methods for the fs object like copy(), remove(), mkdirs().
-* [sfdc-generate-package](https://github.com/scolladon/sfdc-generate-package) - Generation of the package.xml
+* [sfdc-generate-package](https://github.com/scolladon/sfdc-generate-package) - Generation of the package.xml.
+* [sfdc-authent-delegate](https://github.com/scolladon/sfdc-authent-delegate) - Authentication delegate for Salesforce.
 * [through2](https://github.com/rvagg/through2) - A tiny wrapper around Node streams.
 * [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - Simple XML to JavaScript object converter.
 * [xmlbuilder](https://github.com/oozcitak/xmlbuilder-js) - An XML builder for node.js similar to java-xmlbuilder.
